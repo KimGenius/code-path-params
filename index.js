@@ -4,8 +4,10 @@ module.exports = {
   hooks: {
     "page": function (page) {
       page.content = page.content
-        .replace(/{/gi, '<code><var><span style="color:#ec407a;font-weight:bold;font-style:italic;">')
-        .replace(/}/gi, '</span></var></code>')
+        .replace(/{/gi, '<var><span style="color:#ec407a;font-weight:bold;font-style:italic;">')
+        .replace(/}/gi, '</span></var>')
+        .replace("<code>", "")
+        .replace("</code>", "")
       return page;
     }
   }
