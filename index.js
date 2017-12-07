@@ -3,7 +3,9 @@ module.exports = {
   // Map of hooks
   hooks: {
     "page": function (page) {
-      page.content = page.content.replace(/{/gi,'<span style="color:#ec407a; font-weight:bold; font-style: italic;">asdf</span>')
+      page.content = page.content
+        .replace(/{/gi,'<span style="color:#ec407a; font-weight:bold; font-style: italic;">')
+        .replace(/}/gi,'</span>')
       // page.content.getElementById('resource-url').nextSibling.childNodes.innerHTML
       //   .replace(/{/gi, '<span style="color:#ec407a; font-weight:bold; font-style: italic;">')
       //   .replace(/}/gi, '</span>');
