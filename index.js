@@ -8,7 +8,7 @@ module.exports = {
         return '<b>' + block.body + '</b>'
       }
     }
-  }
+  },
   // Map of new filters
   filters: {}
 }
