@@ -7,7 +7,7 @@ module.exports = {
       process: function (block) {
         const splitStr = '+pp+'
         const result = '<pre>'
-        block.split(splitStr).forEach((e, i) => {
+        block.body.split(splitStr).forEach((e, i) => {
             if (i === 0) {
               result += e
             } else {
