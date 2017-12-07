@@ -6,8 +6,8 @@ module.exports = {
       page.content = page.content
         .replace(/{/gi, '<var><span style="color:#ec407a;font-weight:bold;font-style:italic;">')
         .replace(/}/gi, '</span></var>')
-        .replace("<code>", "")
-        .replace("</code>", "")
+        .replace("<pre>", "<p>")
+        .replace("</pre>", "<p>")
       return page;
     }
   }
