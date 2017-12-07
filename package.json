@@ -1,6 +1,6 @@
 {
   "name": "code-path-params",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/KimGenius/code-path-params.git"
   },
+  "engines": {
+    "gitbook": ">=3.0.0-pre.8"
+  },
   "author": "GeniusK",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KimGenius/code-path-params/issues"
   },
-  "homepage": "https://github.com/KimGenius/code-path-params#readme"
+  "homepage": "https://github.com/KimGenius/code-path-params#readme",
+  "dependencies": {}
 }
