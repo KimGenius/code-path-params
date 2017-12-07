@@ -3,8 +3,7 @@ module.exports = {
   hooks: {},
   // Map of new blocks
   blocks: {
-    code-path: {
-      blocks: ['code-path'],
+    codepath: {
       process: function (block) {
         return '<b>' + block.body + '</b>'
       }
