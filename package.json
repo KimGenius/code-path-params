@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-code-path-params",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "",
   "main": "index.js",
   "scripts": {

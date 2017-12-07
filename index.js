@@ -1,3 +1,4 @@
+'use strict'
 module.exports = {
   // Map of hooks
   hooks: {},
@@ -16,7 +17,6 @@ module.exports = {
           }
         )
         result += '</pre>'
-        console.log(result)
         return result
       }
     }
