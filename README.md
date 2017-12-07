@@ -9,16 +9,11 @@ Gitbook 을 이용하여 API 문서를 작성할 때에 Path Parameter를 표현
 그래서 만들었습니다.
 
 ## How to use?
-`
 ```
 METHOD URL{Path-Parameter-Name}
 ```
-`
 
 ex)
-
-`
 ```
 POST http://genius.genie.ggg/abc/{userId}/{HelloCount}
 ```
-`
