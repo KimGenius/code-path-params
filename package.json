@@ -1,6 +1,6 @@
 {
-  "name": "code-path-params",
-  "version": "1.0.3",
+  "name": "gitbook-plugin-code-path-params",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/KimGenius/code-path-params.git"
   },
   "engines": {
-    "gitbook": ">=3.0.0-pre.8"
+    "gitbook": "*"
   },
   "author": "GeniusK",
   "license": "ISC",
