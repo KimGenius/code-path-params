@@ -28,6 +28,7 @@ ex)
 POST http://genius.genie.ggg/abc/{userId}/{HelloCount}/hey
 ```
 <br/>
+
 ![alt text](https://github.com/KimGenius/code-path-params/blob/master/imgs/ex_screenshot.png)<br/>
 
 
