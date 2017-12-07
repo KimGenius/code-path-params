@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-code-path-params",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,9 @@
     "url": "https://github.com/KimGenius/code-path-params/issues"
   },
   "homepage": "https://github.com/KimGenius/code-path-params#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "gitbook-tester": "^1.4.3",
+    "jasmine-node": "^1.14.5"
+  }
 }

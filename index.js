@@ -6,7 +6,7 @@ module.exports = {
     codepath: {
       process: function (block) {
         const splitStr = '+pp+'
-        const result = '<pre>'
+        let result = '<pre>'
         block.body.split(splitStr).forEach((e, i) => {
             if (i === 0) {
               result += e
@@ -16,6 +16,7 @@ module.exports = {
           }
         )
         result += '</pre>'
+        console.log(result)
         return result
       }
     }
