@@ -11,11 +11,11 @@ Gitbook 을 이용하여 API 문서를 작성할 때에 Path Parameter를 표현
 ## How to use?
 
 books.json)
-
+```
 {
   "plugins": ["code-path-params"],
 }
-
+```
 
 syntax)
 ```
