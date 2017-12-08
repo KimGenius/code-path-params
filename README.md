@@ -25,4 +25,4 @@ POST http://genius.genie.ggg/abc/{userId}/{HelloCount}/hey
 
 <pre><span>POST http://genius.genie.ggg/abc/<var><span style="color:#ec407a;font-weight:bold;font-style:italic;">{userId}</span></var>/<var><span style="color:#ec407a;font-weight:bold;font-style:italic;">{HelloCount}</span></var>/hey</span></pre>
 
-![alt text](https://github.com/KimGenius/code-path-params/blob/master/imgs/ex_screenshot.png)
+![alt text](https://github.com/KimGenius/code-path-params/blob/master/imgs/result_screenshot.png)
