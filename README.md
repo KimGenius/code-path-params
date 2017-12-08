@@ -7,7 +7,7 @@ Gitbook 을 이용하여 API 문서를 작성할 때에 Path Parameter를 표현
 
 ### Installation
 
-Adds the plugin to your `book.json`, then run `gitbook install` if you are building your book locally.
+`book.json` 파일에 플러그인을 추가합니다.
 
 ```js
 {
@@ -16,7 +16,7 @@ Adds the plugin to your `book.json`, then run `gitbook install` if you are build
 ```
 
 ### Usage
-
+Parameter로 쓸 문자를 {} 안에 넣습니다.
 ```md
 POST http://genius.genie.ggg/abc/{userId}/{HelloCount}/hey
 ```
